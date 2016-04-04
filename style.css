@@ -8,9 +8,21 @@ body {
     background-color: #F2EBF7;
 }
 
+a {
+    text-decoration: none;
+}
+
 .topBar {
     background-color: #008DFF;
-    min-height: 70px;
+    height: 70px;
+}
+
+#toph1 {
+    margin: 0;
+    padding-left: 20px;
+    position: relative;
+    top: 14px;
+    color: #FFF;
 }
 
 .content {
@@ -18,7 +30,7 @@ body {
     padding-bottom: 20px;
 }
 
-.questions {
+.mainBox {
     background-color: #FFF;
     border-radius: 12px;
     margin-right: 200px;

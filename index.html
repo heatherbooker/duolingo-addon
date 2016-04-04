@@ -8,35 +8,19 @@
 </head>
 
 <body>
-    <header class="topBar"></header>
+    <header class="topBar">
+        <a href="index.html"><h1 id="toph1">DuoLingo Addon</h1></a>
+    </header>
     <div class="content">
         <div>
-            <h1>DuoLingo Addon - French</h1>
+            <h2>French</h2>
             <h3>Learn countries and nationalities!</h3>
         </div>
-        <div class="questions">
-            <div id="q1">
-                <p>Canada:</p>
-                <input type="radio" name="q1" value="y"> Canada (m)
-                <input type="radio" name="q1" value="n"> Canade (f)
-                <br><button onclick="submit('q1')">Submit</button>
-            </div>
-            <div id="q2">
-                <p>United States:</p>
-                <input type="radio" name="q2" value="n"> Units Stats (m)
-                <input type="radio" name="q2" value="y"> les Etats-Unis (m)
-                <br><button onclick="submit('q2')">Submit</button>
-            </div>
-            <div id="q3">
-                <p>England:</p>
-                <input type="radio" name="q3" value="y"> Angleterre (f)
-                <input type="radio" name="q3" value="n"> Ingleterre (f)
-                <br><button onclick="submit('q3')">Submit</button>
-            </div>
-            <br>
-            <button onclick="submitAll()">Submit All</button>
+        <div class="mainBox">
+            <a href="pays.html"><button>Countries</button></a>
+            <a href="nationalites.html"><button>Nationalities</button></a>
+            <a href="#"><button>Mix it up</button></a>
         </div>
-    </div>
-    <script type="text/javascript" src="script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </body>
