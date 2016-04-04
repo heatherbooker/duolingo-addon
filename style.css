@@ -33,6 +33,24 @@ a {
 .mainBox {
     background-color: #FFF;
     border-radius: 12px;
-    margin-right: 200px;
     padding: 5px 20px 15px;
+    float: left;
+    width: 50%;
+}
+
+.col-1-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.icon {
+    max-height: 180px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.btn-ctr {
+    display: block;
+    margin: auto;
 }
