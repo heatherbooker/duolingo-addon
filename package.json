@@ -1,0 +1,19 @@
+{
+  "name": "duo-addon",
+  "version": "1.0.0",
+  "description": "future development: - use angular to change page after lessons to 'congrats' - use database for questions - integrate unofficial duolingo API",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heatherbooker/duolingo-addon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heatherbooker/duolingo-addon/issues"
+  },
+  "homepage": "https://github.com/heatherbooker/duolingo-addon#readme"
+}
